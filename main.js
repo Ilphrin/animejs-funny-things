@@ -65,10 +65,10 @@ tlRight.add({
     anime({
       targets: spans[2],
       scale: [
-        { value: .5, duration: 500},
-        { value: 1, duration: 500},
+        { value: 3, duration: 500},
         { value: 2, duration: 500 },
-        { value: 4, duration: 500, delay: 500 },
+        { value: .5, duration: 500},
+        { value: 4, duration: 500, delay: 500},
       ],
       rotate: [
         { value: '0deg', duration: 0, elasticity: 0},
